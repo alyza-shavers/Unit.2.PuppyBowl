@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <title>PuppyBowl</title>
+    <style>
+        @font-face {
+            font-family: sportFont;
+            src: url(./JackportCollegeNcv-1MZe.ttf);
+        }
+
+        * {
+            font-family: sportFont;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<h1>Enter your players!</h1>
+<body>
+    <div class="form">
+        <form id="new-player-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Puppy Name" required><br><br>
+
+            <label for="breed">Breed:</label><br>
+            <input type="text" id="breed" name="breed" placeholder="Enter Puppy Breed" required><br><br>
+
+            <label for="status">Status:</label><br>
+            <select id="status" name="status" required><br>
+                <option value="none" selected disabled hidden>Please Select One:</option>
+                <option value="bench">bench</option>
+                <option value="field">field</option>
+            </select><br><br>
+            <!-- <input type="radio" id="field" value="field" name="status" required><br><br>
+            <label for="field">Field</label>
+            <input type="radio" id="bench" value="bench" name="status" checked required><br><br>
+            <label for="field">Bench</label><br> -->
+
+            <label for="image">Submit A Photo!:</label><br>
+            <input type="text" id="image" name="imageUrl" required><br><br>
+
+            <label for="teamId">Team ID:</label><br>
+            <input type="text" id="teamId" name="teamId" placeholder="Enter Puppy Breed" required><br><br>
+
+            <!-- <label for="age">Age:</label><br>
+            <input type="text" id="age" placeholder="optional"><br><br>
+            <label for="weight">Weight:</label><br>
+            <input type="text" id="weight" placeholder="optional"><br><br>
+            <label for="description">Description:</label><br>
+            <textarea type="text" id="description" placeholder="Enter Fun Facts About Your Puppy'ss Traits And Personality!"></textarea> -->
+            <input type="submit" value="Add Puppy">
+            <!-- <button>Add Player</button> -->
+        </form>
+    </div>
+    <div class="home">
+        <img src="https://www.freepnglogos.com/uploads/trophy-png/1-trophy-icon-30.png" style="height: 225px;width: 225px;">
+        <a href="./home.html"><p>Back To Home Page</p></div><a>
+    </div>
+    <div class="view">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/60405/bone-in-a-dog-bowl-clipart-xl.png" style="height: 200px;width: 215px;">
+        <a href="./home.html"><p>Back To Home Page</p></a>
+    </div>
+    <div>
+        <h1>Player Roster:</h1>
+        <ul id="all-players-container"></ul>
+        <h1>Selected Player Details:</h1>
+        <article id="player-details"></article>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/709/101/non_2x/superbowl-american-football-stadium-background-free-vector.jpg");
+    background-size: cover;
+}
+.form {
+    align-content: center;
+    margin-top: 90px;
+}
+form {
+    border: black solid 5px;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/premium-vector/american-football-equipment_24911-3478.jpg");
+    background-size: 50%;
+    padding: 20px;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+/* label[for="field"], label[for="bench"] {
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 20px;
+} */
+label[for="name"],label[for="breed"],label[for="status"],label[for="image"],label[for="teamId"] {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px 20px 0 20px;
+}
+input, textarea {
+    width: 60%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 95%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+::placeholder {
+    font-size: large;
+    padding-top: 5px;
+    text-align: center;
+}
+/* input[type=radio] {
+    width:20px;
+    height: 20px;
+    margin-right: 5px;
+} */
+select {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+/* input[type=submit] {
+    font-size: 40px;
+    cursor: pointer;
+    width: 60%;
+    height: 60px;
+    padding-top: 5px;
+    align-content: center;
+} */
+input[type=text], input[type=submit] {
+    font-size: 20px;
+    text-align: center;
+}
+.view, .home {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20%;
+}
+.details {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.home {
+    float: left;
+}
+.view {
+    float: right;
+}
+p {
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.7); 
+    padding: 15px 15px 0 15px;
+}
+h1 {
+    background-color: rgba(255,255,255,0.7); 
+    padding: 15px 15px 0 15px;
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+  }  
+li {
+    flex: 1 1 300px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    overflow: auto;
+}
+article {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    flex: 1 1 300px;
+    max-height: 300px;
+    max-width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    overflow: auto;
+}

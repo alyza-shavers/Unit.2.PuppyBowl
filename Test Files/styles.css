@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    flex: 1 1 300px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  article {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    flex: 1 1 300px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+  }

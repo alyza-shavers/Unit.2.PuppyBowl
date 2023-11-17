@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/709/101/non_2x/superbowl-american-football-stadium-background-free-vector.jpg");
+    background-size: cover;
+}
+.welcome {
+    text-align: center;
+    font-size: 125px;
+    background-color: rgba(255,255,255,0.7);
+    padding-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.view {
+    /* margin: 5% 7% 0 7%; */
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.add {
+    margin: 5% 7% 0 7%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p {
+    font-size: 50px;
+    background-color: rgba(255,255,255,0.7); 
+    padding: 15px 15px 0 15px;
+}

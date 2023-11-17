@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- import JavaScript -->
+  <script defer src="script.js"></script>
+
+  <!-- import CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>PuppyBowl</title>
+</head>
+
+<body>
+
+  <h1>Players</h1>
+  <form id="new-player-form">
+    <label>
+      Name
+      <input type="text" name="name" />
+    </label>
+    <label>
+      Breed
+      <input type="text" name="breed" />
+    </label>
+    <label>
+      Status
+      <!-- <input type="text" id="status" name="status" /> -->
+      <select id="status" name=" status">
+        <option value="field">field</option>
+        <option value="bench">bench</option>
+      </select>
+    </label>
+    <label>
+      Url
+      <input type="text" name="imageUrl" />
+    </label>
+    <label>
+      Team ID
+      <input type="number" name="teamId" />
+    </label>
+    <button>Add Player</button>
+  </form>
+  <ul id="all-players-container"></ul>
+</body>
+</html>
+
+   <!-- form to add new players
+  <div id="new-player-form"></div>
+
+  container for all players
+  <div id="all-players-container"></div>
+-->
+<article id="player-details"></article>
+</body>
+
+</html>
